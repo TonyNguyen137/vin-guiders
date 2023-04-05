@@ -1,0 +1,29 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+*,*::after, *::after {
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", Arial;
+    line-height: 1.2;
+    transition: all 0.5s;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width:100%;
+}

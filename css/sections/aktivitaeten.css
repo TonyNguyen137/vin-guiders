@@ -1,0 +1,83 @@
+section.activities {
+    padding-block: 10rem;
+}
+section.activities .headline-container{
+
+    color: var(--secondary-clr);
+
+}
+
+section.activities button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color:#777;
+    background-color:#5cdb5c;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+section.activities .container{
+    margin-top: 5rem;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 2rem;
+
+    
+}
+
+
+section.activities .container .activities__card{
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.15);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #777;
+ 
+
+    
+}
+
+
+section.activities .container :where(.activities__card):hover img{
+
+    transform: scale(1.1);
+    
+}
+
+section.activities .container .image-box{
+    overflow: hidden;
+    height: 16rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+section.activities .container .image-box img{
+
+    transition: all 0.5s;
+    
+}
+
+
+
+
+section.activities .container .text-box{
+    padding:1rem;
+    
+}
+
+section.activities .container .text-box > *{
+   margin-top: 1rem;
+    
+}
+
+section.activities .container .text-box ul{
+    margin-left: 1rem;
+    list-style: unset;
+     
+}
+
+section.activities .container .text-box .price{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--main-clr);
+}

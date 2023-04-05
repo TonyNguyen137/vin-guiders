@@ -1,0 +1,25 @@
+.menu-button {
+    display: none;
+  background:  none;
+  font-size: 1.8rem;
+  border: 1px solid white;
+  color: black;
+  position: relative;
+
+  width: 2.5rem;
+  height: 2.5rem;
+
+ cursor: pointer;
+}
+
+.hamburger, .close {
+    position: absolute;
+    top: 50%;
+    left:50%;
+
+    transform: translate(-50%,-50%);
+}
+
+.close {
+    display:none;
+}

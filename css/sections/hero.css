@@ -1,0 +1,60 @@
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(17, 128, 213, 0.7), rgba(100, 197, 227, 0.7)), url("../../images/hero-img.jpg");
+    background-size:cover;
+    background-position: center;
+    position: relative;
+
+    color: #fff;
+
+}
+
+
+.hero h1 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+
+
+}
+
+.hero h1 span {
+    display:block;
+
+}
+
+.hero h1 span.heading-primary-main {
+    transform: translateX(-30%);
+    opacity:0;
+    /* animation: appearFromLeft 2s forwards; */
+}
+
+
+.hero h1 span.heading-primary-sub {
+    opacity: 0;
+    /* animation: appear 2s 2s forwards; */
+
+}
+
+
+@keyframes appearFromLeft {
+
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+@keyframes appear{
+
+
+    100%{
+        opacity: 1;
+    }
+    
+}
+

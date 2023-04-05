@@ -1,0 +1,82 @@
+footer {
+    background-color: #54e0ca
+    ;
+}
+
+footer .row-1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:2rem;
+
+}
+
+footer .row-1.container {
+    border-bottom: 1px solid var(--main-clr);
+}
+
+footer h3 {
+    border-bottom: 1px solid black;
+}
+
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer :where(a, .opening) {
+    width: max-content;
+    background-color: var(--main-clr);
+    color: var(--main-clr-l-1);
+
+}
+:where(.col-2, .col-3) li:hover {
+    cursor: pointer;
+    color: aliceblue;
+}
+.col-1 .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-clr);
+    
+}
+.col-1 .info {
+    display:flex;
+    flex-direction: column;
+    gap:0.3rem;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+footer :where(ul, .info) {
+    margin-top: 1rem;
+}
+
+footer .row-2 {
+    padding: 1rem;
+}
+.row-2 ul {
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.row-2 ul li{
+    cursor: pointer;
+}
+
+.row-2 ul li:hover{
+    color: var(--main-clr);
+}
+
+.row-2 p {
+    text-align: center;
+}

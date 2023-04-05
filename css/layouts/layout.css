@@ -1,0 +1,14 @@
+.container {
+    max-width: 120rem;
+    width: 80%;
+    margin-inline: auto;
+    
+}
+
+.grid {
+    display:grid;
+}
+
+.grid-4x4 {
+    grid-template-columns: repeat(4, 1fr);
+}

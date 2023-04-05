@@ -1,0 +1,61 @@
+section.features {
+    background-image: linear-gradient(to right, rgba(17, 128, 213, 0.7), rgba(100, 197, 227, 0.7)), url(../../images/features-boat.jpg);
+    background-size:cover;
+    background-position: center;
+
+
+   
+
+}
+
+section.features .container {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    /* justify-content: space-between; */
+
+    padding-block: 10rem;
+    gap:3.5rem;
+}
+
+
+section.features .features__card {
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    color: var(--main-clr-l-1);
+    padding: 1.5rem;
+    
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    transition: all 0.5s;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.15);
+    
+}
+
+section.features .features__card:hover {
+   
+    transform: translateY(-1rem);
+}
+
+section.features .features__card .text-container h3{
+    color: #777;
+    font-size: 1.1rem;
+    
+}
+
+section.features .container .text-container p {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #777;
+}
+
+
+section.features .container .features__card ion-icon {
+    font-size: 3rem;
+    color: var(--main-clr);
+}
+

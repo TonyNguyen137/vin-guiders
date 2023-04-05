@@ -1,0 +1,91 @@
+section.about-us .container {
+    margin-top: 5rem;
+    padding-block: 7rem;
+    row-gap: 7rem;
+    justify-items:center;
+
+}
+
+section.about-us .container h2 {
+    grid-column: span 4;
+    background: linear-gradient(to right, var(--main-clr), var(--main-clr-l-1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+
+}
+
+section.about-us .container h3{
+    
+    margin-top: 2rem;
+    color: var(--main-clr);
+}
+
+section.about-us .container p{
+    color: var(--secondary-clr);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.4;
+
+    margin-top: 1rem;
+    
+}
+
+
+section.about-us .container a{
+    display: block;
+    margin-top: 1rem;
+}
+
+section.about-us .container .col-left {
+    grid-column: span 2;
+
+   
+}
+
+section.about-us .container .col-right {
+    grid-column: span 2;
+
+    display:grid;
+    place-items:center;
+    grid-template: "stack";
+   
+    
+
+}
+
+section.about-us .container .col-right > img {
+
+    width:60%;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);  
+    grid-area: stack;
+    transition: all 0.5s;
+}
+
+
+section.about-us .container .col-right > img:nth-child(1) {
+
+    transform: translate(-20%,-20%);
+}
+ 
+
+section.about-us .container .col-right > img:nth-child(2) {
+
+   transform: translate(40%, -5%);
+}
+
+
+section.about-us .container .col-right > img:nth-child(3) {
+
+    transform: translate(10%,45%);
+}
+
+
+section.about-us img:hover {
+    z-index: 1;
+    scale: 1.1;
+
+}
+section.about-us a:hover {
+    color:hsl(180, 100%, 40%);
+}

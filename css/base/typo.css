@@ -1,0 +1,48 @@
+.heading-primary-main {
+    font-size: 9rem;
+    font-weight: 700;
+    letter-spacing: 3.5rem;
+    text-transform: uppercase;
+
+}
+
+
+.heading-primary-sub {
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing:0.5rem;
+
+}
+
+.heading-secondary {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+
+}
+
+/*Paragraph*/
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+   
+}
+
+
+/*Text Alignment*/
+
+.text-align-center{
+    text-align: center;
+}
