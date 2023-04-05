@@ -64,4 +64,7 @@ btn.addEventListener("click", _ => {
 
 })
 
+console.log("test);
+            
+
 
